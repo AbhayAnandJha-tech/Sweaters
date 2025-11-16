@@ -1,0 +1,146 @@
+@font-face {
+    font-family:i;
+    src: url(./helvetica-now-display/);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:i;
+}
+/* jo bhi cheez star{*} jke andar likhte h vo sab pr apply hota h */
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.nav{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+
+}
+
+#nav1 a,
+#nav2 a{
+    color: black;
+    text-decoration: none; 
+    /* text-decoration: none;  isse text pr se sab hatjta h jee underline wgerah  */
+    margin: 1px 10px;
+    font-weight: bolder;
+}
+
+#nav1{
+    padding: 15px  30px 5px 30px;
+    font-size: 15px;
+    margin-right: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h3{
+    font-weight: 300px;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: 350px;
+    padding-top: 10px;
+}
+
+#nav2{
+    display: flex;
+    justify-content: right;
+    padding:15px  30px 5px 30px;
+    font-size: 15px;
+    margin-right: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#main>h1{
+    font-size: 380px;
+    padding-top: 1px;
+    padding-left: 30px;
+    font-weight: 15px;
+}
+/* #main>h1 -- > sign ka mtlb main ke direct andar jo h1 h uspr apply hoga baki or h1 pr nhi */
+
+
+#btmleft{
+    position:absolute;
+    width: 200px;
+    bottom: 15%;
+    left: 2%;
+}
+
+#btmleft h3{
+    font-size: 12px;
+    font-weight:bold;
+    margin: 10px 20px 5px;
+}
+
+#btmleft p{
+    font-size: 10px;
+    margin: 0px 20px;
+    font-weight: lighter;
+}
+
+#btmleft h4{
+    margin:30px 20px 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#btmbar{
+    display: flex;
+    /* isse dono words upr neeche aane ki jagah agal bagal hojayenge */
+    justify-content: space-between;
+    /* isse dono ke beech me space aajayega */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    font-weight: 20px;
+    padding: 30px 35px;
+    font-style: italic;
+    padding-left: 50px;
+}
+
+#btmbar a{
+    color: black;
+    text-decoration:underline;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#main>img{
+    position: absolute;
+    height: 300px;
+}
+
+#main #first{
+    height:260px ;
+    top: 50% ;
+    left: 48%;
+}
+
+#main #second{
+    height: 180px;
+    top: 70%;
+    left: 58%;
+}
+
+#main #third{
+    height:330px ;
+    top: 40%;
+    left: 67%;
+}
